@@ -1,0 +1,14 @@
+{
+  "name": "globaltrack",
+  "version": "1.0.0",
+  "description": "GlobalTrack - International Logistics & Freight Tracking Portal (Monorepo root)",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "start:backend": "cd backend && npm start",
+    "seed": "cd backend && npm run seed"
+  },
+  "workspaces": ["backend", "frontend"]
+}
+
